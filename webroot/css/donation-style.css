@@ -1,0 +1,156 @@
+.bold {
+	font-weight: bold;
+}
+
+.container-donation {
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto
+}
+
+.firstbox-donation {
+	margin: 1em;
+	padding: 1em;
+}
+
+.donation-title {
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-underline-position: under;
+	font-weight: bold;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+
+.index-description li {
+	margin-bottom: 0px
+}
+
+.bq-donation {
+	border-left: 5px solid;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.bq-index {
+	margin-left: 5px;
+}
+
+#input-amount-paypal {
+	margin-top: 2rem;
+	margin-bottom: 0.75rem;
+}
+
+.d-flex {
+	display: flex!important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list-dons li p img {
+	border-radius: .25rem;
+}
+
+.list-dons li p  {
+	font-size: 17px;
+}
+
+.fud-yes {
+	background-color: #26b826;
+	min-height: 50px;
+	width: 100%;
+	border: none;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	font-size: 150%;
+	color: #fff !important;
+}
+
+.fud-yes:active .fud-yes:hover .fud-yes:focus .fud-yes:link .fud-yes:visited {
+	border:none;
+	outline: none;
+	text-decoration: none;
+}
+
+.fud-yes:hover {
+	background-color: #00b500;
+}
+
+.fud-yes:disabled {
+	background-color: #26b826 !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.fud-no {
+	background-color: #c81e1e;
+	min-height: 50px;
+	width: 100%;
+	border: none;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 150%;
+	color: #fff !important;
+	border-radius: .25rem;
+	text-align: center;
+	margin-top: 0.75rem;
+	padding: 0.25rem;
+}
+
+.fud-no:active .fud-no:hover .fud-no:focus {
+	border:none;
+	outline: none;
+	text-decoration: none
+}
+
+.fud-no:hover {
+	background-color: #941f1f;
+}
+
+.last-dons {
+	width: 85%;
+    margin: auto;
+	border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+}
+
+li {
+	list-style-type: none;
+}
+
+@media (max-width:768px){
+	.last-dons {
+		margin: 50px auto !important;
+	}
+}
+@media (min-width:768px){.container-donation{width:750px}}
+@media (min-width:992px){.container-donation{width:970px}}
+@media (min-width:1200px){.container-donation{width:1170px}}
+@media (min-width:1300px){.container-donation{width:1300px}}
+
+/* ** W3 ** */
+
+.w3-xlarge {
+	border-radius: 5px;
+}
+.w3-xlarge .w3-container {
+	color: black !important;
+}
+
+.w3-container {
+	border-radius: 5px 0px 0px 5px;
+	padding: 0.01em 0.4% !important;
+}
